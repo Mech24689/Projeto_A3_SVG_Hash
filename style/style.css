@@ -12,26 +12,17 @@ body{
 .container{
     height: 100%;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .container_left{
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 65%;
     /* background-color: red; */
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-.container_right{
-    width: 50%;
-    height: 100%;
-    /* background-color: blue; */
-    padding: 10% 0 10% 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -44,7 +35,7 @@ body{
     align-items: center;
     justify-content: space-around;
     height: 20%;
-    width: 60%;
+    width: 50%;
     padding: 1% 0 1% 0;
     text-transform: uppercase;
     transition: 700ms;
@@ -56,27 +47,13 @@ body{
 
 .input{
     height: 40%;
-    width: 75%;
+    width: 65%;
     text-align: center;
     font-size: 170%;
 }
 
-.btn{
-    border: 1px solid #111;
-    color: #111;
-    height: 90%;
-    font-size: 170%;
-    text-transform: uppercase;
-    width: 40%;
-    cursor: pointer;
-}
-
-.buttons{
-    border: none;
-    background-color: rgba(128, 128, 128, 0);
-}
-
 .svg-wrapper {
+    height: 100%;
     width: 50%; /* Ajuste este valor conforme necessário */
     /*height: 500px;  Ajuste este valor conforme necessário */
     /*border: 1px solid black; /* Para visualizar a borda da div */
