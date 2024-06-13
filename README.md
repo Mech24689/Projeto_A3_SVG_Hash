@@ -2,7 +2,7 @@
 
 Este projeto envolve a criação de uma página web interativa que gera gráficos SVG dinamicamente com base na entrada do usuário. O foco principal é visualizar diferentes formas e padrões de acordo com um valor hash inserido pelo usuário.
 
-# LINK PARA SITE: https://leopanco.github.io/A3_computacao_grafica/
+# LINK PARA SITE: https://mech24689.github.io/Projeto_A3_SVG_Hash/
 
 ## Índice
 1. [Estrutura do Projeto](#estrutura-do-projeto)
